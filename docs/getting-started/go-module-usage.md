@@ -22,7 +22,7 @@ import (
 )
 
 func main() {
-	n, err := number.NewNumber("...")
+	n, err := number.NewNumber("+919019765959")
 	if err != nil {
 		log.Fatal(err)
 	}
